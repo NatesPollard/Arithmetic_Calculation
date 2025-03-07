@@ -27,5 +27,5 @@ function div(a, b) {
     return a / b;
 }
 
-
+// Exporting the functions to be used in the main file
 module.exports = {sum, sub, mul, div};
