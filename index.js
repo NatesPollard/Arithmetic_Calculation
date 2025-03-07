@@ -12,7 +12,7 @@ const functions = require('./arithmetic_functions');
   
 
 
-  //Post method to add new user
+ 
 app.post("/calculate", function (req, res) {
 
   
@@ -34,6 +34,7 @@ app.post("/calculate", function (req, res) {
     console.log("The first value is " + value_1);
     console.log("The second value is " + value_2);
     console.log("The result is: ", functions[operation](value_1, value_2));
+    res.send("The result is: " + functions[operation](value_1, value_2));
   });
   
   app.listen(3000, () => {
