@@ -4,26 +4,26 @@
 
 
 function sum(a, b) {
-    a = parseFloat (a);
-    b = parseFloat (b);
+    a = parseInt (a);
+    b = parseInt (b);
     return a + b;
 }
 
 function sub(a, b) {
-    a = parseFloat (a);
-    b = parseFloat (b);
+    a = parseInt (a);
+    b = parseInt (b);
     return a - b;
 }
 
 function mul(a, b) {
-    a = parseFloat (a);
-    b = parseFloat (b);
+    a = parseInt (a);
+    b = parseInt (b);
     return a * b;
 }
 
 function div(a, b) {
-    a = parseFloat (a);
-    b = parseFloat (b);
+    a = parseInt (a);
+    b = parseInt (b);
     return a / b;
 }
 
